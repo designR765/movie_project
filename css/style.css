@@ -5,6 +5,29 @@
 
 body {
     color: black;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto-Slab', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 3%;
+}
+
+@media(max-width: 1279px) {
+    h1 {
+        font-size: 46px;
+        font-weight: 700;
+    }
+}
+
+@media(max-width: 991px) {
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
 }
 
 ul {
@@ -26,6 +49,15 @@ a {
     margin: auto;
 }
 
+
+/************************* HEADER *************************/
+header {
+    width: 100%;
+    height: auto;
+}
+
+
+/************************* .header-logo *************************/
 .header-logo {
     margin-top: 3%;
     margin-left: 3%;
@@ -52,6 +84,8 @@ a {
     }
 }
 
+
+/************************* .navigation-container *************************/
 .navigation-container {
     box-sizing: border-box;
     width: 100%;
@@ -67,9 +101,11 @@ a {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .navigation-items {
-    margin-bottom: 3%;
+    padding-bottom: 2%;
 }
+
 .navigation-items:not(:last-child) {
     margin-right: 3%;
 }
@@ -84,6 +120,21 @@ a {
         height: 22px;
     }
 }
+
+@media(max-width: 1279px) {
+    .navigation-icon {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media(max-width: 991px) {
+    .navigation-icon {
+        width: 10px;
+        height: 10px;
+    }
+}
+
 
 .navigation-link {
     color: black;
@@ -111,3 +162,23 @@ a {
 .navigation-link:hover {
     text-decoration: underline;
 }
+
+/************************* .producer-block *************************/
+
+.poducer-block {
+    width: 100%;
+    height: auto;
+}
+
+.producer-block-slogan {
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+@media(max-width: 1279px) {
+    .producer-block-slogan {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 991px) {}
