@@ -21,15 +21,12 @@
     }
 
     .producer-block-slogan {
-        font-size: 20px;
+        font-size: 12px;
     }
 
-    .producer-img {
-        width: 304px;
-        height: 356px;
-        position: relative;
-        left: 40%;
-        bottom: 8rem;
+    .producer-text {
+        font-size: 10px;
+        line-height: 150%;
     }
 }
 
