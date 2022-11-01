@@ -1,0 +1,84 @@
+/************************* PC *************************/
+
+@media(max-width: 1280px) {
+    h1 {
+        font-size: 46px;
+        font-weight: 700;
+    }
+
+    .header-logo {
+        width: 112px;
+        height: 66px;
+    }
+
+    .navigation-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .navigation-link {
+        font-size: 16px;
+    }
+
+    .producer-block-slogan {
+        font-size: 20px;
+    }
+
+    .producer-img {
+        width: 304px;
+        height: 356px;
+        position: relative;
+        left: 40%;
+        bottom: 8rem;
+    }
+}
+
+
+/************************* TAB *************************/
+
+@media(max-width: 1279px) {
+    .header-logo {
+        width: 65px;
+        height: 39px;
+    }
+
+    .navigation-icon {
+        width: 13px;
+        height: 13px;
+    }
+
+    .navigation-link {
+        font-size: 13px;
+    }
+
+    .producer-block-slogan {
+        font-size: 12px;
+    }
+}
+
+/************************* MOBILE *************************/
+
+@media(max-width: 991px) {
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .header-logo {
+        width: 52px;
+        height: 31px;
+    }
+
+    .navigation-icon {
+        width: 10px;
+        height: 10px;
+    }
+
+    .navigation-link {
+        font-size: 10px;
+    }
+
+    .producer-block-slogan {
+        font-size: 10px;
+    }
+}
