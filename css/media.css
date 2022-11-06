@@ -140,20 +140,21 @@ header {
 .about-course-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: auto;
     margin-top: 10%;
 }
 
 .about-course-container h2 {
-    font-size: 32px;
+    font-size: 55px;
     margin-bottom: 10%;
 }
 
 .about-course-text {
-    width: 40%;
-    font-size: 10px;
-    line-height: 14px;
+    width: 50%;
+    font-size: 24px;
+    line-height: 36px;
 }
 
 .about-course-text p:not(:last-child) {
@@ -161,8 +162,8 @@ header {
 }
 
 .operator-img {
-    width: 176px;
-    height: 173px;
+    width: 369px;
+    height: 365px;
 }
 
 
