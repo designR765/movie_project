@@ -166,6 +166,33 @@ header {
     height: 365px;
 }
 
+.montajer {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.montajer-img {
+    width: 241px;
+    height: 227px;
+    margin-right: 10%;
+}
+
+.montajer div:not(:last-child) {
+    margin-right: 15%;
+}
+
+.montajer h3 {
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+.montajer p {
+    font-size: 18px;
+    line-height: 23px;
+}
 
 
 /************************* TAB *************************/
